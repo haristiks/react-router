@@ -8,11 +8,10 @@ import './Pages.css'
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Landing />} />
+      <Route path='/' index element={<Landing />} />
       <Route path='/home' element={<Home />} />
       <Route path="/registration" element={<Registration />} />
       <Route path="/login" element={<Login />} />
-    
     </Routes>
   );
 }
